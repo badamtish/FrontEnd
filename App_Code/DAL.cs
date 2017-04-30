@@ -16,6 +16,7 @@ public class DAL
 
     public DataSet getResults(SqlCommand cmd, SqlConnection con)
     {
+        //Comment
         DataSet ds = new DataSet();
         SqlDataAdapter da;
         using (cmd)
